@@ -32,6 +32,7 @@
             this.PictureBoxFind = new System.Windows.Forms.PictureBox();
             this.BtnFindObject = new System.Windows.Forms.Button();
             this.BtnOpenPicture = new System.Windows.Forms.Button();
+            this.BtnCompare = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBoxOriginal)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBoxFind)).BeginInit();
             this.SuspendLayout();
@@ -72,12 +73,23 @@
             this.BtnOpenPicture.UseVisualStyleBackColor = true;
             this.BtnOpenPicture.Click += new System.EventHandler(this.BtnOpenPicture_Click);
             // 
+            // BtnCompare
+            // 
+            this.BtnCompare.Location = new System.Drawing.Point(552, 894);
+            this.BtnCompare.Name = "BtnCompare";
+            this.BtnCompare.Size = new System.Drawing.Size(262, 75);
+            this.BtnCompare.TabIndex = 1;
+            this.BtnCompare.Text = "Compare";
+            this.BtnCompare.UseVisualStyleBackColor = true;
+            this.BtnCompare.Click += new System.EventHandler(this.BtnCompare_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1393, 1120);
             this.Controls.Add(this.BtnOpenPicture);
+            this.Controls.Add(this.BtnCompare);
             this.Controls.Add(this.BtnFindObject);
             this.Controls.Add(this.PictureBoxFind);
             this.Controls.Add(this.PictureBoxOriginal);
@@ -95,6 +107,7 @@
         private System.Windows.Forms.PictureBox PictureBoxFind;
         private System.Windows.Forms.Button BtnFindObject;
         private System.Windows.Forms.Button BtnOpenPicture;
+        private System.Windows.Forms.Button BtnCompare;
     }
 }
 
