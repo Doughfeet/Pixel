@@ -60,6 +60,7 @@
             this.BtnFindObject.TabIndex = 1;
             this.BtnFindObject.Text = "Open Object";
             this.BtnFindObject.UseVisualStyleBackColor = true;
+            this.BtnFindObject.Click += new System.EventHandler(this.BtnFindObject_Click);
             // 
             // BtnOpenPicture
             // 
